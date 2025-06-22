@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+  <!-- the ground plane -->
+  <terrain file="block.off" translation="0.0 0.0 0.0" name="ground_plane">
+    <display color="0.5 0.5 0.5" />
+  </terrain>
+
+  <!-- the table -->
+  <terrain file="cube.off" scale="1 0.8 0.9" translation="-0.5 -0.55 0.0" name="table">
+    <display color="0.4 0.3 0.2"/>
+  </terrain>
+
+  <!-- the robot -->
+  <robot name="ur5" file="../urdf/ur5_robotiq_85_klampt.urdf" translation="0.0 0.0 0.9" />
+
+  <!-- the shelf -->
+  <!-- base_link -->
+  <terrain file="cube.off" scale="0.8 0.4 0.02" translation="-0.4 0.7 -0.01" name="shelf_base">
+    <display color="0.6 0.4 0.23" />
+  </terrain>
+  <!-- right_wall_link -->
+  <terrain file="cube.off" scale="0.4 0.02 2.0" rotateZ="1.57" translation="-0.39 0.7 0.0" name="right_wall">
+    <display color="0.6 0.4 0.23" />
+  </terrain>
+  <!-- left wall link -->
+  <terrain file="cube.off" scale="0.4 0.02 2.0" translation="0.41 0.7 0.0" rotateZ="1.57" name="left_wall">
+    <display color="0.6 0.4 0.23" />
+  </terrain>
+  <!-- back wall link -->
+  <terrain file="cube.off" scale="0.8 0.02 2.0" translation="-0.4 1.09 0.0" name="back_wall">
+    <display color="0.6 0.4 0.23" />
+  </terrain>
+  <!-- top wall link -->
+  <terrain file="cube.off" scale="0.8 0.4 0.02" translation="-0.4 0.7 1.99" name="top_wall">
+    <display color="0.6 0.4 0.23" />
+  </terrain>
+  <!-- mid wall -->
+  <terrain file="cube.off" scale="0.8 0.4 0.02" translation="-0.4 0.7 0.88" name="mid_low_shelf">
+    <display color="0.6 0.4 0.23" />
+  </terrain>
+  <!-- mid wall 2 -->
+  <terrain file="cube.off" scale="0.8 0.4 0.02" translation="-0.4 0.7 1.17" name="mid_high_shelf">
+    <display color="0.6 0.4 0.23" />
+  </terrain>
+  <!-- mid wall 3 -->
+  <terrain file="cube.off" scale="0.8 0.4 0.02" translation="-0.4 0.7 0.35" name="bottom_shelf">
+    <display color="0.6 0.4 0.23" />
+  </terrain>
+  <!-- mid wall 4 -->
+  <terrain file="cube.off" scale="0.8 0.4 0.02" translation="-0.4 0.7 1.55" name="top_shelf">
+    <display color="0.6 0.4 0.23" />
+  </terrain>
+
+</world>

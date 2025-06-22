@@ -1,0 +1,11 @@
+shared_memory: False
+hz: 240
+all_background: True
+debug: False
+save_dir: '../../data/push_data'
+max_dataset_size: 1000
+max_obj_num: 25
+max_occupancy_threshold: 0.4
+use_occupancy_for_placing: True
+use_ycb: False
+show_vis: False

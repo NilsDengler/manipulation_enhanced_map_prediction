@@ -1,0 +1,9 @@
+[submodule "shelf_gym/utils/scikit-geometry"]
+	path = shelf_gym/utils/scikit-geometry
+	url = https://github.com/scikit-geometry/scikit-geometry
+[submodule "shelf_gym/utils/--force"]
+	path = shelf_gym/utils/--force
+	url = https://github.com/scikit-geometry/scikit-geometry
+[submodule "scikit-geometry"]
+	path = shelf_gym/utils/scikit-geometry
+	url = https://github.com/scikit-geometry/scikit-geometry

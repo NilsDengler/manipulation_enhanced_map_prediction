@@ -1,0 +1,14 @@
+.idea
+shelf_gym.egg-info
+*.hdf5
+*.png
+*.p
+*.ckpt
+.ipynb_checkpoints
+__pycache__
+wandb_logs
+wandb
+*.csv
+*.npz
+*.npy
+*.json
